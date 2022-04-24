@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OnlineBanking.ApplicationConstants;
 using OnlineBanking.Data;
 
 namespace OnlineBanking.Data.Models
@@ -6,7 +7,7 @@ namespace OnlineBanking.Data.Models
     public class OnlineBankingContext: DbContext
     {
 
-        private static readonly string defaultSchema = "dbo";
+        private static readonly string defaultSchema = GeneralConstants.DefaultSchema;
 
         #region Constructors
 

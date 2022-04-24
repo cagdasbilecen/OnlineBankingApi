@@ -21,7 +21,8 @@ How To Run Application:
 2) Execute Database.sql script.
 3) Clone the project.
 4) Set Connection String in app.config 
-5) Click on project solution and open it.
-6) Start the project with IIS Express, the project will be running when you see Swagger page.
+5) You can edit OnlineBanking.ApplicationConstants > GeneralConstants.cs > "public static readonly string DefaultSchema = "dbo";" according to your database schema.
+6) Click on project solution and open it.
+7) Start the project with IIS Express, the project will be running when you see Swagger page.
 
 

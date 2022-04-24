@@ -11,8 +11,7 @@ namespace OnlineBanking.ApplicationConstants
         public static readonly string DefaultLanguage = "EN";
         public static readonly string ApplicationName = "ONLINEBANKING";
         public static readonly string ResponseContentType = "application/json";
-
-
+        public static readonly string DefaultSchema = "dbo";
 
     }
 }
