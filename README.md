@@ -14,6 +14,7 @@ Brief Explanation About Project and Architecture:
 - Naming conventions were followed and clean, understandable code was used.
 - Error messages and codes are dynamically stored in the database with application and language variables. 
 - Error messages were transmitted to the Client by reading from the database. Information security was given importance in error messages. System and business errors were separated in appropriate cases. Cache will be added for messages.
+- Development of Jwt authentication in progres...
 
 How To Run Application: 
 
