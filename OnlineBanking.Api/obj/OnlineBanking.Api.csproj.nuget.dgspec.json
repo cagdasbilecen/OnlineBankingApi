@@ -1,0 +1,343 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Api\\OnlineBanking.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Api\\OnlineBanking.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Api\\OnlineBanking.Api.csproj",
+        "projectName": "OnlineBanking.Api",
+        "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Api\\OnlineBanking.Api.csproj",
+        "packagesPath": "C:\\Users\\200212\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\200212\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj": {
+                "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj"
+              },
+              "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Data\\OnlineBanking.Data.csproj": {
+                "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Data\\OnlineBanking.Data.csproj"
+              },
+              "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Domain\\OnlineBanking.Domain.csproj": {
+                "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Domain\\OnlineBanking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj",
+        "projectName": "OnlineBanking.ApplicationConstants",
+        "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj",
+        "packagesPath": "C:\\Users\\200212\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\200212\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Data\\OnlineBanking.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Data\\OnlineBanking.Data.csproj",
+        "projectName": "OnlineBanking.Data",
+        "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Data\\OnlineBanking.Data.csproj",
+        "packagesPath": "C:\\Users\\200212\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\200212\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj": {
+                "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Domain\\OnlineBanking.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Domain\\OnlineBanking.Domain.csproj",
+        "projectName": "OnlineBanking.Domain",
+        "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Domain\\OnlineBanking.Domain.csproj",
+        "packagesPath": "C:\\Users\\200212\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\200212\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj": {
+                "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.ApplicationConstants\\OnlineBanking.ApplicationConstants.csproj"
+              },
+              "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Data\\OnlineBanking.Data.csproj": {
+                "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Data\\OnlineBanking.Data.csproj"
+              },
+              "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Exceptions\\OnlineBanking.Exceptions.csproj": {
+                "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Exceptions\\OnlineBanking.Exceptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Exceptions\\OnlineBanking.Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Exceptions\\OnlineBanking.Exceptions.csproj",
+        "projectName": "OnlineBanking.Exceptions",
+        "projectPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Exceptions\\OnlineBanking.Exceptions.csproj",
+        "packagesPath": "C:\\Users\\200212\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\200212\\Desktop\\projects\\OnlineBankingLastRepo\\OnlineBankingApi\\OnlineBanking.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\200212\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
