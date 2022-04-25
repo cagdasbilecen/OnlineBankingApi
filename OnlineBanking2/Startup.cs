@@ -27,7 +27,6 @@ namespace OnlineBanking2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //TODO: group addscopeds.
             services.AddScoped<IApplicationBiz, ApplicationBiz>();
             services.AddScoped<IMoneyBiz, MoneyBiz>();
             services.AddScoped<IAccountBiz, AccountBiz>();
