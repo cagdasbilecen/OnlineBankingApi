@@ -49,13 +49,13 @@ namespace OnlineBanking.Controllers
 
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("get-account-list")]
-        public BaseResponseModel<GetAccountListResponseModel> GetAccountList(BaseRequestModel<GetAccountListRequestModel> request)
+        public BaseResponseModel<GetAccountListResponseModel> GetAccountList([FromQuery(Name = "citizen_id")] string citizenId)
         {
             GetAccountListRequest accountRequest = new GetAccountListRequest
             {
-                CitizenId = request.Data.CitizenId
+                CitizenId = citizenId
 
             };
 
@@ -63,7 +63,8 @@ namespace OnlineBanking.Controllers
 
             BaseResponseModel<GetAccountListResponseModel> result = new BaseResponseModel<GetAccountListResponseModel>
             {
-                Data = new GetAccountListResponseModel {
+                Data = new GetAccountListResponseModel
+                {
                     AccountList = new List<AccountData>()
                 }
             };
