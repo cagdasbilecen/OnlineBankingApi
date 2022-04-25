@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OnlineBanking2
+namespace OnlineBanking
 {
     public class Program
     {

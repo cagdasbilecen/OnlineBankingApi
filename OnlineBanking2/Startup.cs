@@ -13,7 +13,7 @@ using OnlineBanking.Api.Middleware;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using System.Configuration;
 
-namespace OnlineBanking2
+namespace OnlineBanking
 {
     public class Startup
     {
@@ -58,7 +58,7 @@ namespace OnlineBanking2
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "OnlineBanking2 v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "OnlineBanking v1"));
             }
 
             app.UseHttpsRedirection();
