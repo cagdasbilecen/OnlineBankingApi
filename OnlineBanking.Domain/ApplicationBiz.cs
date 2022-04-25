@@ -27,7 +27,7 @@ namespace OnlineBanking.Domain
 
                 return defaultMessage;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return defaultMessage;
             }

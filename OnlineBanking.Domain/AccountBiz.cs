@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using OnlineBanking.ApplicationConstants;
 using OnlineBanking.Data.Models;
 using OnlineBanking.Data.Repositories;
 using OnlineBanking.Domain.Interfaces;
@@ -81,7 +82,7 @@ namespace OnlineBanking.Domain
             }
             else
             {
-                throw new GringottsException(GringottsExceptionTypes.SystemException, "CUS-001", "Customer Not Found");
+                throw new GringottsException(GringottsExceptionTypes.SystemException, ErrorMessages.CUS_CUSTOMER_NOT_FOUND);
             }
 
         }
